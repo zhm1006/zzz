@@ -1,0 +1,1 @@
+(()=>{let timer;window.petSpeech={show(text){clearTimeout(timer);document.getElementById('speech').textContent=text;timer=setTimeout(()=>{document.getElementById('speech').textContent=''},10000)}}})();
