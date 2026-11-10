@@ -1,0 +1,17 @@
+{
+  "name": "fox-pet",
+  "version": "1.0.0",
+  "description": "3D 桌面陪伴宠物",
+  "main": "main.cjs",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . FoxCompanion --platform=win32 --arch=x64 --out=release --overwrite --ignore=\"^/release\""
+  },
+  "dependencies": {
+    "three": "0.174.0"
+  },
+  "devDependencies": {
+    "electron": "34.5.8",
+    "@electron/packager": "18.3.6"
+  }
+}

@@ -1,0 +1,6 @@
+Fox 模型：Khronos glTF Sample Assets / Fox
+https://github.com/KhronosGroup/glTF-Sample-Assets/tree/main/Models/Fox
+模型：PixelMannen，CC0；骨骼与动画：tomkranis，CC BY 4.0；glTF 转换：AsoboStudio 和 scurest，CC BY 4.0。
+https://creativecommons.org/licenses/by/4.0/
+
+Three.js 使用 MIT License；Electron 使用 MIT License；详见各依赖目录的许可证。

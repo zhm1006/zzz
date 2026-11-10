@@ -1,0 +1,4 @@
+node_modules/
+release/
+testdata/
+smoke-result.json

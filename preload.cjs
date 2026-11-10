@@ -1,0 +1,1 @@
+const {contextBridge,ipcRenderer}=require('electron');contextBridge.exposeInMainWorld('petAPI',{load:()=>ipcRenderer.invoke('load'),save:v=>ipcRenderer.invoke('save',v),quit:()=>ipcRenderer.send('quit'),minimize:()=>ipcRenderer.send('minimize')});
