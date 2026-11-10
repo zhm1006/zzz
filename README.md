@@ -23,6 +23,10 @@ npm run build
 
 打包后的 Windows 程序位于 `release/FoxCompanion-win32-x64/`，分发时需保留整个目录。首次安装 Electron 需要联网。构建产物和依赖未提交到仓库。
 
+## 可选 AI 对话
+
+点击“对话”并在设置中填写支持 OpenAI Chat Completions 的 HTTPS 接口地址（例如 `https://api.openai.com/v1`）、模型和 API Key。密钥由 Electron safeStorage 加密后保存在本机；可随时清除。聊天内容、最近对话及你填写的陪伴记忆会发送给所配置的服务商，可能产生费用，请勿输入敏感信息。记忆由用户主动填写、编辑和删除，不会自动监控或学习习惯；聊天历史仅保存在本次运行的内存中。
+
 ## 使用
 
 拖动宠物周围空白区域移动窗口，底部按钮用于互动；打开“养成”面板可查看进化路线、改名、重置或退出。宠物进度保存在 Electron 用户数据目录。
